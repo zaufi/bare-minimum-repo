@@ -25,4 +25,4 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Checking configured hooks
-        uses: pre-commit/action@v3.0.0
+        uses: pre-commit/action@v3.0.1
