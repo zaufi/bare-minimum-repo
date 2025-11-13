@@ -37,9 +37,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: update/pre-commit-hooks
           delete-branch: true
-          title: 'ci: version bump `pre-commit` hook plugins'
-          commit-message: 'ci: version bump `pre-commit` hook plugins'
+          commit-message: 'ci(pre-commit): version bump hooks'
+          title: 'ci(pre-commit): version bump hooks'
           body: |
-            ## Changes in this PR
+            # Changes in this PR
 
-            Update plugins of `pre-commit` hooks to the latest version.
+            Automatically update the `pre-commit` hook plugins to their latest versions.
